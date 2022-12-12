@@ -34,7 +34,7 @@ Bir veri setini kullanarak, bir karar vermemiz gerekiyor. Dolayısıyla bu sorun
 - Son olarak, sonsal olasılığı (posterior probability) hesaplamak için Bayes teoremini kullanın.
 
 ## Naive Bayes Örnek
-Sorun : Hava güneşliyse oyuncu oynamalı mı oynamamalı mı?
+Sorun: Hava güneşliyse oyuncu oynamalı mı oynamamalı mı?
 
 Çözüm: Bunu çözmek için öncelikle aşağıdaki veri setini göz önünde bulundurmamız lazım.
 
