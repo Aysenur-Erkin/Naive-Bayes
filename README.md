@@ -21,8 +21,16 @@ Bayes Teoremi: B koşulu altında A' nın gerçekleşme olasılığını; A' nı
 Algoritmanın çalışma şekli bir eleman için her durumun olasılığını hesaplar ve olasılık değeri en yüksek olana göre sınıflandırır. Az bir eğitim verisiyle çok başarılı işler çıkartabilir. Elbette öğretilmiş veri sayısı ne kadar çok ise, test verisinin gerçek kategorisini tespit etmek o kadar kesin olabilmektedir.
 
 Bir veri setini kullanarak, bir karar vermemiz gerekiyor. Dolayısıyla bu sorunu çözmek için aşağıdaki adımları izlememiz gerekiyor:
+- Verilen veri setini frekans tablolarına (sıklık çizelgesi) dönüştürün.
+- Verilen özelliklerin olasılıklarını bularak olabilirlik tablosu (likelihood table) oluşturun.
+- Son olarak, sonsal olasılığı (posterior probability) hesaplamak için Bayes teoremini kullanın.
 
--Verilen veri setini frekans tablolarına (sıklık çizelgesi) dönüştürün.
+## Naive Bayes Örnek
+Sorun : Hava güneşliyse Oyuncu oynamalı mı oynamamalı mı?
+Çözüm: Bunu çözmek için öncelikle aşağıdaki veri setini göz önünde bulundurmamız lazım.
+
+
+
 
 
 
