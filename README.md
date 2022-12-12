@@ -66,9 +66,15 @@ P(Yes|Sunny)>P(No|Sunny)
 
 **Dolayısıyla, Güneşli bir günde, Oyuncu oyunu oynayabilir.**
 
+## Zero-Frequency Problemi
+**Test kümesindeki bir değerin eğitim kümesinde gözlemlenemeyen bir değeri varsa olasılık değeri olarak 0 verir yani tahmin yapamaz. Bu durum genellikle Zero Frequency (Sıfır Frekans) adıyla bilinir. Bu durumu çözmek için düzeltme teknikleri kullanılabilir. Bunun için en basit yöntem tüm verilere minimum değer ekleyerek (genellikle 1) bu olasılık ortadan kaldırılabilir. Bu duruma Laplace kullanılarak tahminleme de denmektedir.**
+
 ## Naive Bayes Sınıflandırıcısının Avantajları:
 - Naive Bayes, bir veri kümesi sınıfını tahmin etmek için hızlı ve kolay makine öğrenimi algoritmalarından biridir.
 - Diğer Algoritmalara kıyasla çok sınıflı tahminlerde iyi performans gösterir.
+- Az veriyle iyi işler başarabilir.
+- Sürekli ve kesikli veriler ile kullanılabilir.
+- Yüksek boyutlu verilerde iyi çalışabilir.
 - Metin sınıflandırma problemlerinde (text classification problems) en popüler seçimdir.
 
 ## Naive Bayes Sınıflandırıcısının Dezavantajları:
