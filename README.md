@@ -15,7 +15,15 @@ Naive Bayes algoritması, Naive ve Bayes olmak üzere iki kelimeden oluşur ve �
 ## Bayes Teoremi
 <img src="https://github.com/Aysenur-Erkin/Naive-Bayes/blob/main/Images/bayes.jpg" width="auto">
 
-Bayes Teoremi: B koşulu altında A' nın gerçekleşme olasılığını; A' nın gerçekleşme olasılığı, B' nin gerçekleşme olasılığı ve A koşulu altında B' nin gerçekleşme olasılığını kullanarak bulur.
+**Bayes Teoremi:** Bayes teoremi, olasılık kuramı içinde incelenen önemli bir konudur. Bu teorem bir rassal değişken için olasılık dağılımı içinde koşullu olasılıklar ile marjinal olasılıklar arasındaki ilişkiyi gösterir. Bu şekli ile Bayes teoremi kabul edilir bir ilişkiyi açıklar. Olasılık teorisi içinde incelenen bir ‘olay olarak B olayına koşullu bir A olayı (yani B olayının bilindiği halde A olayı) için olasılık değeri, A olayına koşullu olarak B olayı (yani A olayı bilindiği haldeki B olayı) için olasılık değerinden farklıdır. Ancak bu iki birbirine ters koşulluluk arasında çok belirli bir ilişki vardır ve bu ilişkiye Bayes Teoremi denilmektedir. B koşulu altında A' nın gerçekleşme olasılığını; A' nın gerçekleşme olasılığı, B' nin gerçekleşme olasılığı ve A koşulu altında B' nin gerçekleşme olasılığını kullanarak bulur.
+
+P(A|B): B olayı bilindiğinde A olayının gerçekleşme olasılığı
+
+P(B|A): A olayı bilindiğinde B olayının gerçekleşme olasılığı
+
+P(A): A olayının gerçekleşme olasılığı
+
+P(B): B olayının gerçekleşme olasılığı
 
 ## Naive Bayes Çalışma Mantığı
 Algoritmanın çalışma şekli bir eleman için her durumun olasılığını hesaplar ve olasılık değeri en yüksek olana göre sınıflandırır. Az bir eğitim verisiyle çok başarılı işler çıkartabilir. Elbette öğretilmiş veri sayısı ne kadar çok ise, test verisinin gerçek kategorisini tespit etmek o kadar kesin olabilmektedir.
@@ -82,9 +90,9 @@ P(Yes|Sunny)>P(No|Sunny)
 - Kategorik değişkenin test veri setinde, eğitim veri setinde gözlenmeyen bir kategorisi varsa, model 0 (sıfır) olasılık atayacak ve tahmin yapamayacaktır. Bu genellikle "sıfır olasılık sorunu" olarak bilinir.
 
 ## Naive Bayes Kullanım Alanları:
-- Gerçek Zamanlı Tahmin: Naive Bayes hevesli bir öğrenme sınıflandırıcısıdır ve kesinlikle hızlıdır. Böylece, gerçek zamanlı tahminler yapmak için kullanılabilir.
-- Kredi Puanlaması için kullanılır.
-- Spam filtreleme ve duygu analizi gibi Metin sınıflandırmasında kullanılır.
+- Naive Bayes hızlı bir algoritmaolduğu için gerçek zamanlı tahminler yapmak için kullanılabilir.
+- Kredi puanlaması için kullanılır.
+- Spam filtreleme ve duygu analizi gibi metin sınıflandırmasında kullanılır.
 - Tıbbi veri sınıflandırmasında kullanılır.
 
 ## Naive Bayes Modeli Türleri:
