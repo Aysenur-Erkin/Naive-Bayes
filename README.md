@@ -102,5 +102,6 @@ P(Yes|Sunny)>P(No|Sunny)
 
 ## Kaynakça
 https://towardsdatascience.com/5-minute-machine-learning-naive-bayes-f48472670fdd
+
 https://www.javatpoint.com/machine-learning-naive-bayes-classifier
 
