@@ -8,9 +8,9 @@ Naive Bayes sınıflandırmasında sisteme belirli bir oranda öğretilmiş veri
 ## Neden Naive Bayes deniyor?
 Naive Bayes algoritması, Naive ve Bayes olmak üzere iki kelimeden oluşur ve şu şekilde tanımlanabilir:
 
-Naive: Belirli bir özelliğin oluşumunun diğer özelliklerin ortaya çıkışından bağımsız olduğunu varsaydığı için Naive olarak adlandırılır. Bu nedenle yüksek yanlılığa (bias) sahiptir.
+**Naive:** Belirli bir özelliğin oluşumunun diğer özelliklerin ortaya çıkışından bağımsız olduğunu varsaydığı için Naive olarak adlandırılır. Bu nedenle yüksek yanlılığa (bias) sahiptir.
 
-Bayes: Bayes teoremi ilkesine bağlı olduğu için Bayes olarak adlandırılır.
+**Bayes:** Bayes teoremi ilkesine bağlı olduğu için Bayes olarak adlandırılır.
 
 ## Bayes Teoremi
 <img src="https://github.com/Aysenur-Erkin/Naive-Bayes/blob/main/Images/bayes.jpg" width="auto">
@@ -26,11 +26,60 @@ Bir veri setini kullanarak, bir karar vermemiz gerekiyor. Dolayısıyla bu sorun
 - Son olarak, sonsal olasılığı (posterior probability) hesaplamak için Bayes teoremini kullanın.
 
 ## Naive Bayes Örnek
-Sorun : Hava güneşliyse Oyuncu oynamalı mı oynamamalı mı?
+Sorun : Hava güneşliyse oyuncu oynamalı mı oynamamalı mı?
+
 Çözüm: Bunu çözmek için öncelikle aşağıdaki veri setini göz önünde bulundurmamız lazım.
 
+<img src="https://github.com/Aysenur-Erkin/Naive-Bayes/blob/main/Images/1.png" width="750" heigth="750">
 
+**Hava Koşulları İçin Frekans Tablosu:**
 
+<img src="https://github.com/Aysenur-Erkin/Naive-Bayes/blob/main/Images/2.png" width="750" heigth="750">
+
+**Likelihood Tablosu:**
+
+<img src="https://github.com/Aysenur-Erkin/Naive-Bayes/blob/main/Images/3.png" width="750" heigth="750">
+
+**Bayes Teoremini Uygularsak:**
+
+P(Yes|Sunny)= P(Sunny|Yes)*P(Yes)/P(Sunny)
+
+P(Sunny|Yes)= 3/10= 0.3
+
+P(Sunny)= 0.35
+
+P(Yes)=0.71
+
+P(Yes|Sunny) = 0.3*0.71/0.35= 0.60
+
+P(No|Sunny)= P(Sunny|No)*P(No)/P(Sunny)
+
+P(Sunny|NO)= 2/4=0.5
+
+P(No)= 0.29
+
+P(Sunny)= 0.35
+
+P(No|Sunny)= 0.5*0.29/0.35 = 0.41
+
+P(Yes|Sunny)>P(No|Sunny)
+
+**Dolayısıyla, Güneşli bir günde, Oyuncu oyunu oynayabilir.**
+
+## Naive Bayes Sınıflandırıcısının Avantajları:
+- Naive Bayes, bir veri kümesi sınıfını tahmin etmek için hızlı ve kolay makine öğrenimi algoritmalarından biridir.
+- Diğer Algoritmalara kıyasla Çok sınıflı tahminlerde iyi performans gösterir.
+- Metin sınıflandırma problemlerinde (text classification problems) en popüler seçimdir.
+
+## Naive Bayes Sınıflandırıcısının Dezavantajları:
+- Naive Bayes, tüm özelliklerin bağımsız veya ilgisiz olduğunu varsayar, bu nedenle özellikler arasındaki ilişkiyi öğrenemez.
+- Kategorik değişkenin test veri setinde, eğitim veri setinde gözlenmeyen bir kategorisi varsa, model 0 (sıfır) olasılık atayacak ve tahmin yapamayacaktır. Bu genellikle "sıfır olasılık sorunu" olarak bilinir.
+
+## Naive Bayes Kullanım Alanları:
+- Gerçek Zamanlı Tahmin: Naive Bayes hevesli bir öğrenme sınıflandırıcısıdır ve kesinlikle hızlıdır. Böylece, gerçek zamanlı tahminler yapmak için kullanılabilir.
+- Kredi Puanlaması için kullanılır.
+- Spam filtreleme ve Duygu analizi gibi Metin sınıflandırmasında kullanılır.
+- Tıbbi veri sınıflandırmasında kullanılır.
 
 
 
