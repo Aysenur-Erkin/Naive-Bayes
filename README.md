@@ -100,3 +100,7 @@ P(Yes|Sunny)>P(No|Sunny)
 - **Bernoulli Naive Bayes:** Bu, çok terimli naive bayes'e benzer, ancak öngörücüler boolean değişkenlerdir. Sınıf değişkenini tahmin etmek için kullandığımız parametreler sadece evet veya hayır değerlerini alır, örneğin bir kelimenin metinde geçip geçmediği.
 - **Gauss Naive Bayes:** Bu algoritmada sürekli veri ele alınır. Her sınıfla ilişkili sürekli özellikler normal (veya Gaussian) dağılıma göre dağıtılır. Bu yöntem kullanılarak eğitim verisinden her sınıf için ortalama (mean) ve standart sapma (standard deviation) değerleri tahmin edilir. Bu sayede dağılım özetlenir.
 
+## Kaynakça
+https://towardsdatascience.com/5-minute-machine-learning-naive-bayes-f48472670fdd
+https://www.javatpoint.com/machine-learning-naive-bayes-classifier
+
