@@ -68,7 +68,7 @@ P(Yes|Sunny)>P(No|Sunny)
 
 ## Naive Bayes Sınıflandırıcısının Avantajları:
 - Naive Bayes, bir veri kümesi sınıfını tahmin etmek için hızlı ve kolay makine öğrenimi algoritmalarından biridir.
-- Diğer Algoritmalara kıyasla Çok sınıflı tahminlerde iyi performans gösterir.
+- Diğer Algoritmalara kıyasla çok sınıflı tahminlerde iyi performans gösterir.
 - Metin sınıflandırma problemlerinde (text classification problems) en popüler seçimdir.
 
 ## Naive Bayes Sınıflandırıcısının Dezavantajları:
