@@ -13,7 +13,7 @@ Naive: Belirli bir özelliğin oluşumunun diğer özelliklerin ortaya çıkış
 Bayes: Bayes teoremi ilkesine bağlı olduğu için Bayes olarak adlandırılır.
 
 ## Bayes Teoremi
-<img src="https://github.com/Aysenur-Erkin/Naive-Bayes/blob/main/bayes.jpg" width="auto">
+<img src="https://github.com/Aysenur-Erkin/Naive-Bayes/blob/main/Images/bayes.jpg" width="auto">
 
 Bayes Teoremi: B koşulu altında A' nın gerçekleşme olasılığını; A' nın gerçekleşme olasılığı, B' nin gerçekleşme olasılığı ve A koşulu altında B' nin gerçekleşme olasılığını kullanarak bulur.
 
