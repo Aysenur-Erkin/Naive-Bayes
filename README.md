@@ -78,7 +78,7 @@ P(Yes|Sunny)>P(No|Sunny)
 ## Naive Bayes Kullanım Alanları:
 - Gerçek Zamanlı Tahmin: Naive Bayes hevesli bir öğrenme sınıflandırıcısıdır ve kesinlikle hızlıdır. Böylece, gerçek zamanlı tahminler yapmak için kullanılabilir.
 - Kredi Puanlaması için kullanılır.
-- Spam filtreleme ve Duygu analizi gibi Metin sınıflandırmasında kullanılır.
+- Spam filtreleme ve duygu analizi gibi Metin sınıflandırmasında kullanılır.
 - Tıbbi veri sınıflandırmasında kullanılır.
 
 ## Naive Bayes Modeli Türleri:
