@@ -62,7 +62,7 @@ P(Yes|Sunny) = 0.3*0.71/0.35= 0.60
 
 P(No|Sunny)= P(Sunny|No)*P(No)/P(Sunny)
 
-P(Sunny|NO)= 2/4=0.5
+P(Sunny|No)= 2/4=0.5
 
 P(No)= 0.29
 
@@ -90,7 +90,7 @@ P(Yes|Sunny)>P(No|Sunny)
 - Kategorik değişkenin test veri setinde, eğitim veri setinde gözlenmeyen bir kategorisi varsa, model 0 (sıfır) olasılık atayacak ve tahmin yapamayacaktır. Bu genellikle "sıfır olasılık sorunu" olarak bilinir.
 
 ## Naive Bayes Kullanım Alanları:
-- Naive Bayes hızlı bir algoritmaolduğu için gerçek zamanlı tahminler yapmak için kullanılabilir.
+- Naive Bayes hızlı bir algoritma olduğu için gerçek zamanlı tahminler yapmak için kullanılabilir.
 - Kredi puanlaması için kullanılır.
 - Spam filtreleme ve duygu analizi gibi metin sınıflandırmasında kullanılır.
 - Tıbbi veri sınıflandırmasında kullanılır.
